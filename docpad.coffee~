@@ -1,0 +1,28 @@
+# DocPad Configuration File
+# http://docpad.org/docs/config
+
+# Define the DocPad Configuration
+docpadConfig = {
+	# ...
+
+plugins: {
+marked: {
+  markedRenderer: {
+    heading: function (text, level) {
+      var escapedText = text.toLowerCase().replace(/[^\w]+/g, '-');
+
+      return '<h' + level + '>' +
+        text + ' <a name="' +
+        escapedText +
+        '" class="anchor" href="#' +
+        escapedText +
+        '"><span class="header-link"># </span></a></h' + level + '>';
+    }
+  }
+}
+}
+
+# Export the DocPad Configuration
+module.exports = docpadConfig
+
+

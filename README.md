@@ -1,4 +1,4 @@
-jobs
-====
+# Your [DocPad](http://docpad.org) Project
 
-Iranian Geeky Job Market
+## License
+Copyright &copy; 2014+ All rights reserved.
