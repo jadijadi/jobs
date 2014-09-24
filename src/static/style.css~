@@ -1,7 +1,7 @@
 .item { margin: 8pt; direction: rtl; text-align: right; padding: 6pt;}
 .ltr {direction: ltr; text-align:left;}
 .header {text-align: left; direction: ltr;}
-li { indent: 20pt }
+li { margin: 0 24 0 24;}
 #grid[data-columns]::before {
 	content: '3 .column.size-1of3';
 }
