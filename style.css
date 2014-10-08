@@ -1,0 +1,23 @@
+
+.item { margin: 8pt; direction: rtl; text-align: right; padding: 6pt;}
+
+.ltr {direction: ltr; text-align:left;}
+
+.header {text-align: left; direction: ltr;}
+
+.titlebox {border: 1pt;}
+
+.headtext 
+{
+	color: rgb(177, 174, 174);
+}
+
+li { margin: 0 24 0 24;}
+#grid[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
+
+/* These are the classes that are going to be applied: */
+.column { float: right; }
+.size-1of3 { width: 33.333%; }
+.topspacer {height: 46pt;}
